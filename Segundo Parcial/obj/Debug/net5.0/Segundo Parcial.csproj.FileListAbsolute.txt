@@ -1,0 +1,92 @@
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\appsettings.Development.json
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\appsettings.json
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Segundo Parcial.StaticWebAssets.xml
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Segundo Parcial.exe
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Segundo Parcial.deps.json
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Segundo Parcial.runtimeconfig.json
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Segundo Parcial.runtimeconfig.dev.json
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Segundo Parcial.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\ref\Segundo Parcial.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Segundo Parcial.pdb
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Segundo Parcial.Views.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Segundo Parcial.Views.pdb
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.csprojAssemblyReference.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.AssemblyInfoInputs.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.AssemblyInfo.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.csproj.CoreCompileInputs.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.MvcApplicationPartsAssemblyInfo.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.RazorComponent.input.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.RazorComponent.output.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\RazorDeclaration\Segundo Parcial.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.TagHelpers.input.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.TagHelpers.output.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.RazorCoreGenerate.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\App.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.RazorAssemblyInfo.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.RazorAssemblyInfo.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\staticwebassets\Segundo Parcial.StaticWebAssets.Manifest.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\staticwebassets\Segundo Parcial.StaticWebAssets.xml
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\scopedcss\bundle\Segundo Parcial.styles.css
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\scopedcss\projectbundle\Segundo Parcial.bundle.scp.css
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.RazorTargetAssemblyInfo.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.RazorTargetAssemblyInfo.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.Views.pdb
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\ref\Segundo Parcial.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.pdb
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.genruntimeconfig.cache
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Segundo Parcial.csproj.CopyComplete
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Humanizer.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\RazorDeclaration\Pages\Mapa.razor.g.cs
+D:\Tareas\5to Cuatrimestre\PROG 3\Xdxdxdxd\Segundo Parcial\obj\Debug\net5.0\Razor\Pages\Mapa.razor.g.cs

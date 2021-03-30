@@ -1,0 +1,45 @@
+﻿@page "/"
+@namespace Segundo_Parcial.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Segundo Parcial</title>
+    <base href="~/" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="Segundo Parcial.styles.css" rel="stylesheet" />
+    <style>
+        #map{
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <component type="typeof(App)" render-mode="ServerPrerendered" />
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuvI4oAH1XkmkvFDkJ1OehYE6h-_Yzc6Q&callback=mapa">
+</script>
+<script src="~/Mapa.js"></script>
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+@page "/mapa"
+@using Models;
+@inject IJSRuntime JS;
+
+<div class="container mt-3 text-center">
+  <h1>Mapa de Robos</h1>
+        <div class="form-group">
+        <div id="map">
+
+        </div>
+    </div>
+</div>
+
+
+
+
+@code{
+
+DBRobosContext context = new DBRobosContext();
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+
+           var datos = (
+             from xa in context.Robos
+             select new {
+                 ID = Convert.ToString(xa.Id) ,
+                 lat = xa.Lat,
+                 lng = xa.Lgn
+             }
+
+
+           );
+
+
+
+
+            if(firstRender){
+          await JS.InvokeVoidAsync("showMapa", datos);
+            }
+        }
+
+
+}

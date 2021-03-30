@@ -1,0 +1,262 @@
+@page "/"
+@using Models;
+@inject IJSRuntime JS;
+@using System.IO;
+
+
+<div class="container">
+<div class="card">
+    <div class="card-header"><h3>Registro de Robos</h3></div>
+    <div class="card-body">
+            <div class="form-group">
+        <label for="">Cedula</label>
+        <input type="text" @bind="cedula" class="form-control">
+    </div>
+     <div class="form-group">
+        <label for="">Nombre</label>
+        <input type="text" @bind="name" class="form-control">
+    </div>
+     <div class="form-group">
+        <label for="">Fecha</label>
+        <input type="datetime-local" @bind="fecha" class="form-control">
+    </div>
+     <div class="form-group">
+        <label for="">Que se robaron</label>
+        <input type="text" @bind="que" class="form-control">
+    </div>
+     <div class="form-group">
+        <label for="">Valor</label>
+        <input type="number" @bind="valor" class="form-control">
+    </div>
+     <div class="form-group">
+        <label for="">Donde ocurrio</label>
+        <input type="text" @bind="donde" class="form-control">
+    </div>
+    <div class="form-group">
+        <div id="map">
+
+        </div>
+    </div>
+     <div class="form-group">
+        <label for="">Latitud</label>
+        <input type="number" class="form-control" @bind="latitud" id="lat" disabled>
+    </div>
+     <div class="form-group">
+        <label for="">Longitud</label>
+        <input type="number" class="form-control" @bind="longitud" id="lng" disabled>
+    </div>
+    <div class="form-group">
+        @switch (switch_on)
+        {
+            case 2:
+<button class="btn btn-light btn-block" @onclick="Actualizar">Guardar</button>  
+            break;
+          
+            default:
+<button class="btn btn-dark btn-block" @onclick="registrar">Guardar</button>
+            break;
+        }
+        
+    </div>
+    </div>
+</div>
+<div class="card mt-3">
+    <div class="card-header"><h3>Lista de Robos</h3></div>
+    <div class="card-body">
+        <table   class="table">
+            <thead>
+                <tr><th>Cedula</th><th>Nombre</th><th>Fecha</th><th>Que se Robaron</th><th>Valor</th><th>Donde Ocurrio</th><th>Latitud</th><th>Longitud</th><th>Editar</th><th>Exportar a HTML</th></tr>
+            </thead>
+            <tbody>
+@foreach (Robo z in GetRobos())
+{
+    <tr>
+        <td>@z.Cedula</td>
+        <td>@z.Nombre</td>
+        <td>@z.Fecha</td>
+        <td>@z.Que</td>
+        <td>@z.Valor</td>
+        <td>@z.Donde</td>
+        <td>@z.Lat</td>
+        <td>@z.Lgn</td>
+        <td><button class="btn btn-success" @onclick="() => Editar(z.Id)">Editar</button></td>
+        <td><button class="btn btn-primary" @onclick="() => Exportar(z.Id)">Exportar HTML</button></td>
+    </tr>
+}
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+@code {
+    ///////////////
+
+public string cedula;
+public string name;
+public DateTime fecha = DateTime.Now;
+public string que;
+public double valor;
+public string donde;
+
+public double latitud;
+public double longitud;
+
+public int switch_on = 1;
+public int idU {get; set;}
+DBRobosContext context = new DBRobosContext();
+
+
+
+List<Robo> GetRobos() => context.Robos.ToList();
+
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+            if(firstRender){
+          await JS.InvokeVoidAsync("addMapa");
+            }
+        }
+
+async ValueTask<float> Lat(){
+    return await JS.InvokeAsync<float>("lat");
+    }
+    async ValueTask<float> Lng(){
+    return await JS.InvokeAsync<float>("lng");
+    }
+
+   public async Task registrar(){
+float lat = await Lat();
+float lng = await Lng();
+
+context.Add(new Robo {Cedula = cedula, Nombre = name, Fecha = fecha, Que = que, Valor = valor, Donde = donde, Lat = lat, Lgn = lng});
+
+await context.SaveChangesAsync();
+Limpiar();
+
+    }
+
+
+public void Editar(int id){
+var data = context.Robos.First(x => x.Id == id);
+cedula = data.Cedula;
+name = data.Nombre;
+fecha = Convert.ToDateTime(data.Fecha);
+que = data.Que;
+valor = Convert.ToDouble(data.Valor);
+donde = data.Donde;
+latitud = Convert.ToDouble(data.Lat);
+longitud = Convert.ToDouble(data.Lgn); 
+idU = data.Id;
+switch_on = 2;
+
+
+
+
+}
+
+async Task Actualizar(){
+    float lat = await Lat();
+float lng = await Lng();
+var data = context.Robos.First(x => x.Id == idU);
+
+data.Cedula = cedula;
+data.Nombre = name;
+data.Fecha = fecha;
+data.Que = que;
+data.Valor = valor;
+data.Donde = donde;
+data.Lat = lat;
+data.Lgn = lng;
+context.Update(data);
+await context.SaveChangesAsync();
+Limpiar();
+switch_on = 1;
+}
+
+
+public void Limpiar(){
+    
+   cedula = "";
+name = "";
+fecha = DateTime.Now;
+que = "";
+valor = 0;
+donde = "";
+latitud = 0;
+longitud = 0; 
+idU = 0;
+}
+
+///// Exportar a HTML
+
+public void Exportar(int id){
+var data = context.Robos.First(x => x.Id == id);
+
+string ruta = Directory.GetCurrentDirectory();
+string ruta2 = ruta+"\\Robos";
+
+if(Directory.Exists(ruta2) == false){
+    Directory.CreateDirectory(ruta2);
+}
+
+string content = "<html>" + 
+"<body>"+
+ "   <table border='2px' >" +
+        "<thead>" +
+            "<tr><th>Cedula</th><th>Nombre</th><th>Fecha</th><th>Que se Robaron</th><th>Valor</th><th>Donde Ocurrio</th><th>Latitud</th><th>Longitud</th></tr>" +
+        "</thead>" +
+       " <tbody>" + "<td>"+ data.Cedula+"</td>" +
+         "<td>"+ data.Nombre+"</td>" + 
+          "<td>"+ data.Fecha+"</td>" + 
+          "<td>"+ data.Que+"</td>" + 
+          "<td>"+ data.Valor+"</td>" + 
+          "<td>"+ data.Donde+"</td>" + 
+          "<td>"+ data.Lat+"</td>" + "<td>"+ data.Lgn+"</td>" + 
+          "</tbody>"+
+    "</table>"+
+
+
+"</body>"+
+"</html>";
+
+string ruta3 = $"{ruta2}\\Robo{data.Id}.html";
+File.WriteAllText(ruta3, content);
+GoToSite(ruta3);
+
+
+
+
+
+
+}
+
+void GoToSite(string nav){
+System.Diagnostics.Process myProcess = new System.Diagnostics.Process();
+try{
+myProcess.StartInfo.UseShellExecute = true;
+myProcess.StartInfo.FileName = nav;
+myProcess.Start();
+}
+catch (Exception e)
+{
+  Console.WriteLine(e.Message);
+}
+
+
+
+}
+
+
+////////////////////
+}
+
